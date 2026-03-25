@@ -32,9 +32,15 @@ Primárně určená pro vlastní orientační přehled (např. DPP), bez řešen
 ---
 
 ## 📂 Struktura projektu
+
+
 .
 ├── kalkulackav2.py # GUI aplikace
+
+
 ├── kalkulacka.py # jednoduchá CLI verze
+
+
 └── smeny.csv # uložené směny (vytvoří se automaticky)
 
 ---
@@ -66,18 +72,18 @@ výdělek = hodiny × hodinová_sazba
 Data se ukládají do CSV souboru (smeny.csv)
 
 ## ⚠️ Omezení
-Neřeší:
-daně
-odvody
-noční směny přes půlnoc (zatím)
-Formát času musí být přesně HH:MM
+- Neřeší:
+ - daně
+ - odvody
+ - noční směny přes půlnoc (zatím)
+- Formát času musí být přesně HH:MM
 
 ## 🚀 Možná vylepšení
-filtrování podle měsíce
-přehled směn přímo v GUI
-editace / mazání směn
-export do Excelu
-build do .exe
+- filtrování podle měsíce
+- přehled směn přímo v GUI
+- editace / mazání směn
+- export do Excelu
+- build do .exe
 
 ## 📄 Licence
 Volně použitelné pro osobní účely.
