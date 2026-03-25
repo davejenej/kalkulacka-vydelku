@@ -35,6 +35,8 @@ Primárně určená pro vlastní orientační přehled (např. DPP), bez řešen
 
 
 .
+
+
 ├── kalkulackav2.py # GUI aplikace
 
 
@@ -72,7 +74,7 @@ výdělek = hodiny × hodinová_sazba
 Data se ukládají do CSV souboru (smeny.csv)
 
 ## ⚠️ Omezení
-- Neřeší:
+Neřeší:
  - daně
  - odvody
  - noční směny přes půlnoc (zatím)
